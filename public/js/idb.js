@@ -33,29 +33,28 @@ function budgetDb() {
   // get all records from budgetstore and sets it a variable
   const getAll = budgetStore.getAll();
 
-
-getAll.onsuccess = function () {
+  getAll.onsuccess = function () {
     if (getAll.result.length > 0) {
-        fetch('api/transaction', {
-            method: 'POST',
+      fetch("api/transaction", {
+        method: "POST",
         body: JSON.stringify(getAll.result),
         headers: {
-          Accept: 'application/json, text/plain, */*',
-          'Content-Type': 'application/json'
-        }
+          Accept: "application/json, text/plain, */*",
+          "Content-Type": "application/json",
+        },
       })
-        .then(response => response.json())
-        .then(serverResponse => {
+        .then((response) => response.json())
+        .then((serverResponse) => {
           if (serverResponse.message) {
             throw new Error(serverResponse);
           }
 
-          const transaction = db.transaction(['pending'], 'readwrite');
-          const pizzaObjectStore = transaction.objectStore('pending');
+          const transaction = db.transaction(["pending"], "readwrite");
+          const pizzaObjectStore = transaction.objectStore("pending");
           // clear all items in your store
-          pizzaObjectStore.clear();
+          budgetStore.clear();
         })
-        .catch(err => {
+        .catch((err) => {
           // set reference to redirect back here
           console.log(err);
         });
@@ -64,4 +63,4 @@ getAll.onsuccess = function () {
 }
 
 // listen for app coming back online
-window.addEventListener('online', budgetDb);
+window.addEventListener("online", budgetDb);
