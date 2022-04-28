@@ -50,7 +50,7 @@ function budgetDb() {
           }
 
           const transaction = db.transaction(["pending"], "readwrite");
-          const pizzaObjectStore = transaction.objectStore("pending");
+          const budgetStore = transaction.objectStore("pending");
           // clear all items in your store
           budgetStore.clear();
         })
