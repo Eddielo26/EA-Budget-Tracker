@@ -19,7 +19,7 @@
 # Description
 * Budget Tracker app used to monitor your spending
 * Budgeting made easy to deposit and withdraw funds to keep your finances in order
-* Gives the user to constantly update with or withour internet connection
+* Lets the user constantly update expenses with or withour internet connection
 * Gives the user the abilty to track funds while offline and automatically update once reconnected to the internet  
 
 
