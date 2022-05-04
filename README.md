@@ -24,7 +24,8 @@
 
 
 # Images
-![Untitled_ May 4, 2022 2_05 AM](https://user-images.githubusercontent.com/94813193/166652513-bea474b7-da20-4b25-a49d-64c810cd35db.gif)
+![Untitled_ May 4, 2022 2_11 AM](https://user-images.githubusercontent.com/94813193/166653427-d19bec99-fc27-4f83-b7ef-e3d0f1adf65b.gif)
+
 
 <img width="500" alt="Screen Shot 2022-05-04 at 1 57 25 AM" src="https://user-images.githubusercontent.com/94813193/166651256-b1fbd0bb-4ae7-4c1f-aa88-e8960edaa9ff.png">
 
