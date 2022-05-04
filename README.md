@@ -9,18 +9,27 @@
 
 # Table of Contents
 * [Description](#description)
-* [Video](#video)
+* [Images](#images)
+* [Deployed Link](#deployed-link)
 * [Installation](#installation)
 * [Packages Used](#packages-used)
 * [Contact](#contact)
 
 
 # Description
+* Budget Tracker app used to monitor your spending
+* Budgeting made easy to deposit and withdraw funds to keep your finances in order
+* Gives the user to constantly update with or withour internet connection
+* Gives the user the abilty to track funds while offline and automatically update once reconnected to the internet  
 
 
-# Video
+# Images
+![Untitled_ May 4, 2022 2_05 AM](https://user-images.githubusercontent.com/94813193/166652513-bea474b7-da20-4b25-a49d-64c810cd35db.gif)
 
+<img width="500" alt="Screen Shot 2022-05-04 at 1 57 25 AM" src="https://user-images.githubusercontent.com/94813193/166651256-b1fbd0bb-4ae7-4c1f-aa88-e8960edaa9ff.png">
 
+# Deployed Link
+<a href="https://morning-citadel-50858.herokuapp.com/">Budget Tracker
 
 # Installation
 
